@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title data-i18n="home_menubar_product_machine">jQuery i18n Demo</title>
+	<meta name="author" content="Santhosh Thottingal">
+	<!-- Libs -->
+	<script
+		src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous"></script>
+	<script src="js/libs/CLDRPluralRuleParser/src/CLDRPluralRuleParser.js"></script>
+	<!-- Source -->
+	<script src="js/src/jquery.i18n.js"></script>
+	<script src="js/src/jquery.i18n.messagestore.js"></script>
+	<script src="js/src/jquery.i18n.fallbacks.js"></script>
+	<script src="js/src/jquery.i18n.parser.js"></script>
+	<script src="js/src/jquery.i18n.emitter.js"></script>
+	<script src="js/src/jquery.i18n.language.js"></script>
+
+	<!-- Demo -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/language-switcher.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<header id="overview" class="subhead well">
+			<h1 data-i18n="[html]home_menubar_product">jQuery i18n Demo</h1>
+			<p class="lead"  data-i18n="[html]home_menubar_product_machine">
+				jQuery i18n Demo
+			</p>
+		</header>
+
+		<div class="lead">
+			Choose the Language
+			<select class="language span3">
+				<option value="en">English</option>
+				<option value="vi">Vietnamese</option>
+				<option value="cn">Chinese</option>
+			</select>
+		</div>
+		<div data-i18n="[html]home_menubar_product">Sản phẩm</div><br>
+		<div data-i18n="[html]home_menubar_product_machine">Máy BrainJuice</div><br>
+		<div data-i18n="[html]home_menubar_product_app">App BrainJuice</div><br>
+		<div data-i18n="[html]home_menubar_partnership">Cộng tác</div><br>
+		<div data-i18n="[html]home_menubar_partnership_buymachine">Mua máy BrainJucie</div><br>
+		<div data-i18n="[html]home_menubar_partnership_buytoken">Mua AIBA Token</div><br>
+		<div data-i18n="[html]home_menubar_news">Tin tức</div><br>
+		<div data-i18n="[html]home_menubar_blog">Blog</div><br>
+		<div data-i18n="[html]home_menubar_team">Tin tức</div><br>
+		<div data-i18n="[html]home_menubar_lang_en">Tiếng Anh</div><br>
+		<div data-i18n="[html]home_menubar_lang_cn">Tiếng Trung</div><br>
+		<div data-i18n="[html]home_menubar_lang_vi">Tiếng Việt</div><br>
+		<div data-i18n="[html]home_section1_slogan">(none)</div><br>
+		<div data-i18n="[html]home_section1_bigtitle">BrainJuice<br>AI BARISTA</div><br>
+		<div data-i18n="[html]home_section1_smalltext">Chào mừng tới BrainJuice - một dự án với tham vọng mang lại sản phẩm đồ uống cà phê chất lượng áp dụng cộng nghệ tiên tiến, trí tuệ nhân tạo (AI) và blockchain.</div><br>
+		<div data-i18n="[html]home_section1_button">home_section1_button</div><br>
+		<div data-i18n="[html]home_section2_overlay_bigtitle">MÁY CÀ PHÊ BrainJuice</div><br>
+		<div data-i18n="[html]home_section2_overlay_smalltext">Chiếc máy cà phê tự động siêu thông minh. Và hơn thế!</div><br>
+		<div data-i18n="[html]home_section2_button_playvideo">home_section2_button_playvideo</div><br>
+		<div data-i18n="[html]home_section3_bigtitle">CHÚNG TÔI LÀM GÌ</div><br>
+		<div data-i18n="[html]home_section3_smalltext">Lấy cảm hứng từ sự trỗi dậy mạnh mẽ của cà phê cold brew ủ lạnh, được hỗ trợ bởi kinh nghiệm dày dặn trong lĩnh vực công nghệ, chúng tôi kiến tạo ra BrainJuice - dự án kết hợp giữa sản phẩm cà phê chất lượng, trí tuệ nhân tạo (AI) và blockchain.</div><br>
+		<div data-i18n="[html]home_section3_barista_title">AI Barista</div><br>
+		<div data-i18n="[html]home_section3_barista_description">Máy pha và bán cà phê hoàn toàn tự động, được hỗ trợ bởi AI và vận hành trên nền tảng ứng dụng điện thoại.<br>BrainJuice có thiết kế đột phá và sử dụng 100% nguyên liệu hoá lỏng.<br>BrainJuice giao tiếp với ứng dụng thông qua mã QR khắc trên vỏ máy.</div><br>
+		<div data-i18n="[html]home_section3_app_title">BrainJuice App</div><br>
+		<div data-i18n="[html]home_section3_app_description">Ứng dụng điện thoại dành cho người mua cà phê từ máy BrainJuice. Qua ứng dụng, người dùng có thể thiết lập tài khoản cá nhân, order cà phê, quét mã QR để thanh toán và nhận cà phê tại điểm máy.</div><br>
+		<div data-i18n="[html]home_section4_bigtitle">Trở thành đối tác của BrainJuice</div><br>
+		<div data-i18n="[html]home_section4_smalltext">\"Lợi nhuận càng lớn rủi ro càng cao\".Công nghệ Blockchain đã khiến câu châm ngôn này trở nên lỗi thời </div><br>
+		<div data-i18n="[html]home_section4_machine_title">Mua máy BrainJuice</div><br>
+		<div data-i18n="[html]home_section4_machine_description">Lợi nhuận cao gấp 3 lần quán cafe truyền thống. Vốn đầu tư có thể ít hơn 8 lần</div><br>
+		<div data-i18n="[html]home_section4_token_title">Mua Token BrainJuice (AIBA)</div><br>
+		<div data-i18n="[html]home_section4_token_description">Với đồng AIBA, bạn có thể đầu tư vào bất kỳ máy BrainJuice nào bạn muốn, bất kỳ số tiền nào bạn thích và bao nhiêu máy BrainJuice tùy ý.</div><br>
+		<div data-i18n="[html]home_section5_bigtitle">Tin tức</div><br>
+		<div data-i18n="[html]home_section5_smalltext">Tin tức và bài báo liên quan đến các sản phẩm và sự kiện của BrainJuice. </div><br>
+		<div data-i18n="[html]home_section5_article_title">home_section5_article_title</div><br>
+		<div data-i18n="[html]home_section5_article_description">home_section5_article_description</div><br>
+		<div data-i18n="[html]home_section6_bigtitle">Đội ngũ sáng lập</div><br>
+		<div data-i18n="[html]home_section6_smalltext">Dự án BrainJuice là dự án được đầu tư và phát triển bởi những chuyên gia đầu ngành trong lĩnh vực Cà phê, Công nghệ, IoT và Blockchain.</div><br>
+		<div data-i18n="[html]home_section6_member1_name">Nguyễn Ngọc Dũng</div><br>
+		<div data-i18n="[html]home_section6_member1_jobtitle">Chủ tịch HĐQT IDD - HANCOFFEE</div><br>
+		<div data-i18n="[html]home_section6_member2_name">Nguyễn Hồng San</div><br>
+		<div data-i18n="[html]home_section6_member2_jobtitle">Giám đốc sản phẩm Smart Home. Thạc sỹ Công nghệ thông tin</div><br>
+		<div data-i18n="[html]home_section6_member3_name">Nguyễn Tấn Vinh</div><br>
+		<div data-i18n="[html]home_section6_member3_jobtitle">Giám đốc sản phẩm Smart Home. Tiến sỹ ngành Khoa học máy tính</div><br>
+		<div data-i18n="[html]home_section6_button">home_section6_button</div><br>
+		<div data-i18n="[html]home_section7_bigtitle">Liên hệ với chúng tôi</div><br>
+		<div data-i18n="[html]home_section7_smalltext">Hãy để lại thông tin liên hệ nếu bạn có mong muốn tìm hiểu thêm về dự án BrainJuice.</div><br>
+		<div data-i18n="[html]home_section7_form_title">Để lại thông tin:</div><br>
+		<div data-i18n="[html]home_section7_form_name">home_section7_form_name</div><br>
+		<div data-i18n="[html]home_section7_form_email">home_section7_form_email</div><br>
+		<div data-i18n="[html]home_section7_form_message">home_section7_form_message</div><br>
+		<div data-i18n="[html]home_section7_form_submitbutton">Gửi</div><br>
+		<div data-i18n="[html]home_section7_form_submit_success_bigtitle">Cảm ơn!</div><br>
+		<div data-i18n="[html]home_section7_form_submit_success_smalltext">Chúng tôi đã nhận được phản hồi của bạn.</div><br>
+		<div data-i18n="[html]home_section7_form_submit_alert_email">Please enter a valid email</div><br>
+		<div data-i18n="[html]home_section7_form_submit_alert_name">Please enter your Name</div><br>
+		<div data-i18n="[html]home_section7_form_submit_alert_message">home_section7_form_submit_alert_message</div><br>
+		<div data-i18n="[html]product_machine_section2_bigtitle">BrainJuice AI Barista</div><br>
+		<div data-i18n="[html]product_machine_section2_subhead1">Máy</div><br>
+		<div data-i18n="[html]product_machine_section2_smalltext1">BrainJuice là máy pha cà phê hoàn toàn tự động. Sử dụng 100% nguyên liệu hoá lỏng, máy có thể vận hành mà không cần đường nước.<br>BrainJuice không có màn hình hay nút bấm, giao tiếp với ứng dụng điện thoại thông qua mã code QR được khắc trên vỏ máy.</div><br>
+		<div data-i18n="[html]product_machine_section2_subhead2">Ứng dụng</div><br>
+		<div data-i18n="[html]product_machine_section2_smalltext2">Người dùng tương tác với máy BrainJuice hoàn toàn thông qua ứng dụng điện thoại này. Ứng dụng cho phép người dùng thiết lập trang cá nhân, đặt hàng sản phẩm cà phê, thanh toán và lấy đồ.</div><br>
+		<div data-i18n="[html]product_machine_section2_subhead3">Hệ điều hành</div><br>
+		<div data-i18n="[html]product_machine_section2_smalltext3">Trung tâm của toàn bộ hệ thống BrainJuice. Hệ điều hành tổng giúp xử lý và điều hướng thông tin người dùng, theo dõi và vận hành hệ thống máy pha cà phê BrainJuice.</div><br>
+		<div data-i18n="[html]product_app_section1_bigtitle">Ứng dụng Brain Juice</div><br>
+		<div data-i18n="[html]product_app_section1_small">Tận hưởng dịch vụ barista cá nhân ngay trong điện thoại</div><br>
+		<div data-i18n="[html]product_app_section2_subhead1">Danh mục đồ uống gợi ý:</div><br>
+		<div data-i18n="[html]product_app_section2_smalltext1">Nhận gợi ý đồ uống từ AI theo khẩu vị của bạn và khám phá các đồ uống đang được yêu thích trên khắp thế giới.</div><br>
+		<div data-i18n="[html]product_app_section2_subhead2">Thông tin user:</div><br>
+		<div data-i18n="[html]product_app_section2_smalltext2">Nơi lưu trữ thông tin về thói quen, khẩu vị và các thông tin sức khỏe mà bạn muốn Brain Juice lưu ý.</div><br>
+		<div data-i18n="[html]product_app_section3_subhead1">Menu đồ uống</div><br>
+		<div data-i18n="[html]product_app_section3_subhead2">Chọn đồ uống theo menu hoặc đề xuất từ AI theo khẩu vị của riêng bạn</div><br>
+		<div data-i18n="[html]product_app_section3_subhead3">BrainJuice tự động đề xuất các máy BrainJuice gần vị trí bạn đang đứng</div><br>
+		<div data-i18n="[html]partnership_machine_section1_bigtitle">Quét QR tại điểm máy BrainJuice để thực hiện thanh toán online và nhận đồ uống</div><br>
+		<div data-i18n="[html]partnership_machine_section1_smalltext">Sở hữu máy BrainJuice</div><br>
+		<div data-i18n="[html]partnership_machine_section2_subhead1">So với việc mở quán cà phê, sở hữu máy Brain Juice cho bạn tỉ suất lợi nhuận cao gấp 3 lần, với chi phí vận hành ít hơn 8 lần.</div><br>
+		<div data-i18n="[html]partnership_machine_section2_smalltext1">Chi phí mặt bằng thấp</div><br>
+		<div data-i18n="[html]partnership_machine_section2_smalltext2">Quán cafe truyền thống: 180m2</div><br>
+		<div data-i18n="[html]partnership_machine_section2_subhead2">Máy BrainJuice: 1m2</div><br>
+		<div data-i18n="[html]partnership_machine_section2_smalltext3">Chi phí nhân công thấp</div><br>
+		<div data-i18n="[html]partnership_machine_section2_smalltext4">Quán cafe truyền thống: 20 nhân sự</div><br>
+		<div data-i18n="[html]partnership_machine_section3_subhead3">Máy BrainJuice: 0</div><br>
+		<div data-i18n="[html]partnership_machine_section3_smalltext5">Chi phí đầu tư thấp</div><br>
+		<div data-i18n="[html]partnership_machine_section3_smalltext6">Quán cafe truyền thống: $80.000-250.000</div><br>
+		<div data-i18n="[html]partnership_machine_section3_subhead4">Máy BrainJuice: <= $10.000</div><br>
+		<div data-i18n="[html]partnership_machine_section3_smalltext7">Chi phí vận hành thấp:</div><br>
+		<div data-i18n="[html]partnership_machine_section3_smalltext8">Quán cafe truyền thống: tự vận hành các hoạt động marketing, sản xuất và quản lý chất lượng.</div><br>
+		<div data-i18n="[html]partnership_machine_section3_subhead5">Máy BrainJuice: được làm hộ toàn bộ.</div><br>
+		<div data-i18n="[html]partnership_machine_section3_smalltext9">Tỷ suất lợi nhuận vượt trội</div><br>
+		<div data-i18n="[html]partnership_machine_section3_smalltext10">Quán cafe truyền thống: tỷ suất lợi nhuận  <30%/năm</div><br>
+		<div data-i18n="[html]partnership_token_section1_bigtitle">Máy BrainJuice: tỷ suất lợi nhuận 90%/1 năm</div><br>
+		<div data-i18n="[html]partnership_token_section1_smalltext">Đầu tư đồng AIBA</div><br>
+		<div data-i18n="[html]partnership_token_section2_bigtitle">Đồng AIBA cho phép các nhà đầu tư có thể đầu tư vào các máy cà phê Brain Juice mà họ đánh giá là có tiềm năng và trực tiếp hưởng lợi nhuận từ hoạt động kinh doanh của chiếc máy đó.</div><br>
+		<div data-i18n="[html]partnership_token_section2_smalltex">Phương thức đầu tư</div><br>
+		<div data-i18n="[html]partnership_token_section2_paragraph1">Chiếc máy tại Thượng Hải được định giá 100,000 AIBA. Investor A ở Mỹ đầu tư 10,000 AIBA vào node của chiếc máy đó. Như vậy, anh/cô ta sẽ sở hữu 10% giá trị chiếc máy và được hưởng 10% lợi nhuận từ việc vận hành của máy.</div><br>
+		<div data-i18n="[html]partnership_token_section2_paragraph2">BrainJuice lên kế hoạch lắp máy và chi phí.</div><br>
+		<div data-i18n="[html]partnership_token_section2_paragraph3">Kế hoạch phát triển máy được đăng lên cộng đồng BrainJuice.</div><br>
+		<div data-i18n="[html]partnership_token_section2_paragraph4">Nhà đầu tư gửi token vào node của chiếc máy mà họ muốn góp vốn.</div><br>
+		<div data-i18n="[html]partnership_token_section3_bigtitle">Nếu số token gửi vượt giá trị chiếc máy, ưu tiên cho các nhà đầu tư gửi nhiều token hơn.</div><br>
+		<div data-i18n="[html]partnership_token_section3_smalltex">Cơ cấu token</div><br>
+		<div data-i18n="[html]partnership_token_section3_proportion_item1">Tổng cung: 3.500.000.000 Giá public sale khởi điểm: $0.2</div><br>
+		<div data-i18n="[html]partnership_token_section3_proportion_item2">Đội ngũ phát triển</div><br>
+		<div data-i18n="[html]partnership_token_section3_proportion_item3">Cộng đồng</div><br>
+		<div data-i18n="[html]partnership_token_section3_proportion_item4">Private sale + Public sale</div><br>
+		<div data-i18n="[html]partnership_token_section3_proportion_item5">Quỹ mở rộng mạng lưới máy mới</div><br>
+		<div data-i18n="[html]partnership_token_section3_proportion_item6">Quỹ marketing</div><br>
+		<div data-i18n="[html]partnership_token_section3_proportion_item7">Quỹ R&D</div><br>
+		<div data-i18n="[html]partnership_token_section3_proportion_item8">Quỹ dành cho Board of Advisors</div><br>
+		<div data-i18n="[html]partnership_token_section3_proportion_item9">Quỹ bình ổn thị trường</div><br>
+		<div data-i18n="[html]partnership_token_section4_bigtitle">Quỹ dự trữ cho các rủi ro không lường trước</div><br>
+		<div data-i18n="[html]partnership_token_section4_smalltex">Cơ chế giữ giá cho đồng AIBA:</div><br>
+		<div data-i18n="[html]partnership_token_button_downloadwpp">Tạo nguồn cầu từ các nhà đầu tư truyền thống<br>Tạo ra lợi ích cho thúc đẩy các nhà đầu tư lớn hold token<br>Có cơ chế hút lượng token khỏi dòng lưu thông </div><br>
+		<div data-i18n="[html]team_section1_bigtitle">partnership_token_button_downloadwpp</div><br>
+		<div data-i18n="[html]team_section1_smalltext">Về chúng tôi</div><br>
+		<div data-i18n="[html]team_section2_subhead">Đội ngũ BrainJuice gồm những chuyên gia hàng đầu hoạt động trong lĩnh vực kỹ thuật, thiết bị thông minh, công nghệ trí tuệ nhân tạo và kinh doanh cà phê.</div><br>
+		<div data-i18n="[html]team_section2_smalltext">Tầm nhìn</div><br>
+		<div data-i18n="[html]about_mission">Brain Juice hướng đến trở thành thương hiệu cạnh tranh với các thương hiệu cà phê truyền thống hàng đầu hiện nay, nhờ những vượt trội về trải nghiệm khách hàng và giá thành sản phẩm.</div><br>
+		<div data-i18n="[html]about_description">Sứ mệnh</div><br>
+		<div data-i18n="[html]team_section3_member1_name">BrainJuice ra đời nhằm giải quyết vấn đề của người dùng cuối và người kinh doanh lĩnh vực cà phê. Với người dùng cuối, Brain Juice mang đến sản phẩm ngon, tiện và giá hợp lý. Với người kinh doanh, Brain Juice là giải pháp đầu tư mang đến lợi nhuận cao.</div><br>
+		<div data-i18n="[html]team_section3_member1_jobtitle">Nguyễn Ngọc Dũng</div><br>
+		<div data-i18n="[html]team_section3_member2_name">Chủ tịch HĐQT IDD - HANCOFFEE</div><br>
+		<div data-i18n="[html]team_section3_member2_jobtitle">Nguyễn Hồng San</div><br>
+		<div data-i18n="[html]team_section3_member3_name">Giám đốc sản phẩm Smart Home. Thạc sỹ Công nghệ thông tin</div><br>
+		<div data-i18n="[html]team_section3_member3_jobtitle">Nguyễn Tấn Vinh</div><br>
+	</div>
+</body>
+</html>
