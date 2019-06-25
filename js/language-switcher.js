@@ -1,4 +1,4 @@
-function updateText () {
+function updateLanguage () {
   'use strict'
   let i18n = $.i18n(), language
 
@@ -18,5 +18,5 @@ function updateText () {
 
 ( function ($) {
   'use strict'
-  updateText()
+  updateLanguage()
 } )(jQuery)
